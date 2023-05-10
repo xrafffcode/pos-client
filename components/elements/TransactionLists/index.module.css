@@ -1,0 +1,23 @@
+.transactions_list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.transaction-list__transaction-card {
+    margin-top: 20px;
+    background-color: var(--color-blue);
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.products_list {
+    float: left;
+}
